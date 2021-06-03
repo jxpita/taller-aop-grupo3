@@ -1,0 +1,36 @@
+import java.io.File;
+import java.util.Calendar;
+import java.io.IOException;
+import java.io.FileWriter;
+
+
+public aspect Logger {
+	
+	File file = new File("log.txt");
+    Calendar cal = Calendar.getInstance();
+
+    pointcut success() : call(* create*(..) );
+    after() : success() {
+    //Aspecto ejemplo: solo muestra este mensaje después de haber creado un usuario 
+    	System.out.println("**** User created ****");
+    }
+        
+    pointcut makeTransaction() : call(* money*(..) );
+    after() : makeTransaction() {
+    	if (thisJoinPointStaticPart.getSignature().toString().contains("moneyMakeTransaction"))
+    		writeFile("Depósito\t" + cal.getTime());
+    	else if (thisJoinPointStaticPart.getSignature().toString().contains("moneyWithdrawal"))
+    		writeFile("Retiro\t" + cal.getTime());
+    }
+    
+    void writeFile(String text) {
+    	try {
+			FileWriter myWriter = new FileWriter(file);
+			myWriter.write(text);
+			myWriter.close();
+		} catch (IOException e) {
+			System.out.println("Error al escribir en archivo");
+			e.printStackTrace();
+		}
+    }
+}

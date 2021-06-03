@@ -1,0 +1,28 @@
+import java.io.File;
+import java.util.Calendar;
+
+import org.aspectj.lang.reflect.Pointcut;
+
+import java.io.FileWriter;
+
+public aspect Logger {
+	
+	File file = new File("log.txt");
+    Calendar cal = Calendar.getInstance();
+
+    pointcut success() : call(* create*(..) );
+    after() : success() {
+    //Aspecto ejemplo: solo muestra este mensaje después de haber creado un usuario 
+    	System.out.println("**** User created ****");
+    }
+        
+    pointcut makeTransaction() : call(* money*(..) );
+    after() : makeTransaction() {
+    	System.out.println("Signature to string:\t" + thisJoinPointStaticPart.getSignature().toString());
+    	System.out.println("Class:\t" + thisJoinPointStaticPart.getSignature().getClass());
+    	if (thisJoinPointStaticPart.getSignature().toString().contains("moneyMakeTransaction"))
+    		System.out.println("Depósito exitoso!");
+		else if (thisJoinPointStaticPart.getSignature().toString().contains("moneyWithdrawal"))
+        	System.out.println("Retiro exitoso!");
+    }
+}
