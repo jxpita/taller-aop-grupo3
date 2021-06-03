@@ -22,7 +22,7 @@ Capturas de ejemplo:
 
 Capturas de nuevo aspecto:
 * Milca
-
+![capturaMilca](https://user-images.githubusercontent.com/34144827/120701778-e6122300-c478-11eb-8c06-185875d78bbb.png)
 
 * Gabriela
 ![capturaGabriela](https://user-images.githubusercontent.com/34144827/120699979-b7934880-c476-11eb-9dc1-bf35e1271575.png)
