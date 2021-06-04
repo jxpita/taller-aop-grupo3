@@ -9,24 +9,24 @@ Integrantes:
 
 Capturas de ejemplo:
 * Milca
-![capturaMilca](https://user-images.githubusercontent.com/34144827/120698767-1c4da380-c475-11eb-93b4-09cae201a9a6.png)
+![capturaMilcaEjemplo](https://user-images.githubusercontent.com/34144827/120735873-f514c780-c4b0-11eb-822c-6835ccfc5cce.png)
 
 * Gabriela
-![capturaGabriela](https://user-images.githubusercontent.com/34144827/120698774-1f489400-c475-11eb-8065-fae631f53720.png)
+![capturaGabrielaEjemplo](https://user-images.githubusercontent.com/34144827/120735918-04941080-c4b1-11eb-8478-9966e18fb9ce.png)
 
 * Juan
-![Screenshot (24)](https://user-images.githubusercontent.com/34144827/120685928-0a183900-c466-11eb-8d6a-1bf62177c726.png)
+![CapturaJuanEjemplo](https://user-images.githubusercontent.com/34144827/120735931-0958c480-c4b1-11eb-9907-d3171b636b18.png)
 
 
 
 
 Capturas de nuevo aspecto:
 * Milca
-![capturaMilca](https://user-images.githubusercontent.com/34144827/120701778-e6122300-c478-11eb-8c06-185875d78bbb.png)
+![capturaMilcaAspectoNuevo](https://user-images.githubusercontent.com/34144827/120735893-fc3bd580-c4b0-11eb-8ab6-9badba1286d5.png)
 
 * Gabriela
-![capturaGabriela](https://user-images.githubusercontent.com/34144827/120699979-b7934880-c476-11eb-9dc1-bf35e1271575.png)
+![capturaGabrielaNuevoAspecto](https://user-images.githubusercontent.com/34144827/120735924-065dd400-c4b1-11eb-8289-b80e7c58c7d9.png)
 
 * Juan
-![Screenshot (27)](https://user-images.githubusercontent.com/34144827/120699039-81a19480-c475-11eb-8737-666d7a0993a4.png)
+![CapturaJuanNuevoAspecto](https://user-images.githubusercontent.com/34144827/120735938-0b228800-c4b1-11eb-9ceb-949c14924a49.png)
 
